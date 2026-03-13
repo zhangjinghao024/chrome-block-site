@@ -1,0 +1,9 @@
+img.nsfw-blocked {
+  filter: blur(20px) !important;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+img.nsfw-blocked:hover {
+  filter: blur(0) !important;
+}

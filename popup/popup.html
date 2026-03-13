@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Block Site</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="../icons/48.png" class="logo" alt="" />
+    <h1>Block Site</h1>
+  </div>
+
+  <div class="section">
+    <button id="blockCurrent" class="btn btn-primary">Block Current Site</button>
+    <p id="currentSite" class="current-site"></p>
+  </div>
+
+  <div class="section">
+    <label class="label">Add a site manually</label>
+    <div class="input-row">
+      <input id="manualInput" type="text" placeholder="e.g. twitter.com" />
+      <button id="addManual" class="btn btn-sm">Add</button>
+    </div>
+    <p id="feedback" class="feedback"></p>
+  </div>
+
+  <div class="section stats">
+    <span id="count" class="count">0</span> sites blocked
+    <a id="manageLink" href="#" class="manage-link">Manage list</a>
+  </div>
+
+  <div class="section toggles">
+    <p class="label">Content filters</p>
+    <label class="toggle-row">
+      <span>Block adult sites</span>
+      <input type="checkbox" id="adultToggle" />
+    </label>
+    <label class="toggle-row">
+      <span>Filter NSFW images</span>
+      <input type="checkbox" id="imageToggle" />
+    </label>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

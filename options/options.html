@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Block Site – Manage</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>🚫 Block Site</h1>
+      <p class="subtitle">Manage your blocked websites</p>
+    </header>
+
+    <main>
+      <section class="add-section">
+        <h2>Add a site</h2>
+        <div class="input-row">
+          <input id="newSite" type="text" placeholder="e.g. reddit.com or *.youtube.com" />
+          <button id="addBtn" class="btn btn-primary">Block Site</button>
+        </div>
+        <p id="addFeedback" class="feedback"></p>
+      </section>
+
+      <section class="list-section">
+        <h2>Blocked sites <span id="totalCount" class="badge">0</span></h2>
+        <ul id="siteList" class="site-list">
+          <li class="empty-state">No sites blocked yet.</li>
+        </ul>
+      </section>
+
+      <section class="filter-section">
+        <h2>Content Filters</h2>
+        <p class="filter-desc">These filters provide additional protection beyond your custom blocked sites list.</p>
+
+        <div class="filter-row">
+          <div class="filter-info">
+            <span class="filter-title">Block adult sites</span>
+            <span class="filter-sub">Blocks known adult/pornographic websites using built-in rules (Layer 1 – DNS-level)</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="adultFilterToggle" />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-info">
+            <span class="filter-title">Filter NSFW images</span>
+            <span class="filter-sub">Uses on-device AI (NSFWJS) to blur adult images on any website (Layer 2 – ML-based). ~5MB model loads on first use.</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="imageFilterToggle" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

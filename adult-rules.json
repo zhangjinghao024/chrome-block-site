@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1001, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?pornhub\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1002, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?xvideos\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1003, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?xnxx\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1004, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?xhamster\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1005, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?redtube\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1006, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?youporn\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1007, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?tube8\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1008, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?spankbang\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1009, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?eporner\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1010, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?youjizz\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1011, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?brazzers\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1012, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?naughtyamerica\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1013, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?realitykings\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1014, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?bangbros\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1015, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?mofos\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1016, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?digitalplayground\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1017, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?kink\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1018, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?men\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1019, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?gayforit\\.eu(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1020, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?hentaihaven\\.xxx(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1021, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?nhentai\\.net(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1022, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?hentai2read\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1023, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?rule34\\.xxx(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1024, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?gelbooru\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1025, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?danbooru\\.donmai\\.us(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1026, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?e621\\.net(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1027, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?hentaifoundry\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1028, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?literotica\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1029, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?adultfriendfinder\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1030, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?onlyfans\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1031, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?faphouse\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1032, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?clips4sale\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1033, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?manyvids\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1034, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?avn\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1035, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?xart\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1036, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?abbywinters\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1037, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?met-art\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1038, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?hegrehunter\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1039, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?hegre\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1040, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?sexart\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1041, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?porntrex\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1042, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?tnaflix\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1043, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?empflix\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1044, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?pornoxo\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1045, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?bravotube\\.net(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1046, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?txxx\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1047, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?drtuber\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1048, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?porn300\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1049, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?hclips\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1050, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?fux\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1051, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?missav\\.ws(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1052, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?missav\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1053, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?javdb\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1054, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?javlibrary\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1055, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?javbus\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1056, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?javmost\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1057, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?jav\\.guru(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1058, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?javhd\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1059, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?javsee\\.net(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1060, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?javtrailers\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1061, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?avgle\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1062, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?dmm\\.co\\.jp(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1063, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?fanza\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1064, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?caribbeancom\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1065, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?10musume\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1066, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?1pondo\\.tv(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1067, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?heydouga\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1068, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?fc2\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1069, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?91porny\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1070, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?91porn\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1071, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?91porn\\.life(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1072, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?pornhub\\.net(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1073, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?pornhub\\.org(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1074, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?motherless\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1075, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?xfantasy\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1076, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?sex\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1077, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?porndig\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1078, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?4tube\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1079, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?pornone\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1080, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?beeg\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1081, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?porntube\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1082, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?pornmd\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1083, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?pornhd\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1084, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?netflixporn\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1085, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?xempire\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1086, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?ixxx\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1087, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?sexvid\\.xxx(/.*)?$", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 1088, "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "regexFilter": "^https?://([^/]*\\.)?pornovore\\.com(/.*)?$", "resourceTypes": ["main_frame"] }
+  }
+]

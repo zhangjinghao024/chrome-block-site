@@ -14,14 +14,6 @@
     <p class="message">This website has been blocked to help you stay focused.</p>
     <a id="manageLink" href="#" class="btn">Manage Blocked Sites</a>
   </div>
-  <script>
-    const params = new URLSearchParams(location.search);
-    const site = params.get('site') || 'This site';
-    document.getElementById('siteName').textContent = site;
-    document.getElementById('manageLink').addEventListener('click', (e) => {
-      e.preventDefault();
-      chrome.runtime.openOptionsPage();
-    });
-  </script>
+  <script src="blocked.js"></script>
 </body>
 </html>

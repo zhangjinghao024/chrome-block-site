@@ -1,5 +1,15 @@
 // Monitor SPA client-side navigation and block if domain is in blocklist
 (function () {
+  function isExtensionContextValid() {
+    try {
+      return !!chrome.runtime?.id;
+    } catch {
+      return false;
+    }
+  }
+
+  if (!isExtensionContextValid()) return;
+
   const BLOCKED_PAGE = chrome.runtime.getURL('blocked/blocked.html');
 
   // Don't run on the blocked page itself
@@ -10,6 +20,10 @@
   }
 
   function checkAndBlock() {
+    if (!isExtensionContextValid()) {
+      cleanup();
+      return;
+    }
     const domain = getCurrentDomain();
     chrome.storage.sync.get('blockedSites', ({ blockedSites = [] }) => {
       if (blockedSites.includes(domain)) {
@@ -31,6 +45,12 @@
     _replaceState(...args);
     checkAndBlock();
   };
+
+  function cleanup() {
+    window.removeEventListener('popstate', checkAndBlock);
+    history.pushState = _pushState;
+    history.replaceState = _replaceState;
+  }
 
   // Handle back/forward navigation
   window.addEventListener('popstate', checkAndBlock);

@@ -1,19 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Site Blocked</title>
+  <title>专注模式 — 面试生存清单</title>
   <link rel="stylesheet" href="blocked.css" />
 </head>
 <body>
-  <div class="container">
-    <div class="icon">🚫</div>
-    <h1>Site Blocked</h1>
-    <p class="site-name" id="siteName"></p>
-    <p class="message">This website has been blocked to help you stay focused.</p>
-    <a id="manageLink" href="#" class="btn">Manage Blocked Sites</a>
+  <!-- 顶部屏蔽提示栏 -->
+  <div class="blocked-bar">
+    <span class="blocked-icon">🚫</span>
+    <span><strong id="siteName"></strong> 已被屏蔽 — 专心准备面试！</span>
+    <a id="manageLink" href="#" class="manage-btn">管理屏蔽列表</a>
   </div>
+
+  <div class="container">
+    <h1 class="page-title">🔥 面试生存清单</h1>
+
+    <!-- 开场模板 -->
+    <section class="card opening">
+      <h2>面试开场 30 秒模板</h2>
+      <blockquote>
+        "我在去哪儿负责火车票抢票核心链路，主要做了三件事：<strong>一是搭建了 6 个页面的公共组件库</strong>，通过多态 Style 方案解决跨页面样式复用；<strong>二是主导了秒开率优化</strong>，安卓从 43.6% 提升到 82.8%；<strong>三是负责鸿蒙适配</strong>，从零搭建原生桥接层，每周贡献 4000+ 票量。"
+      </blockquote>
+    </section>
+
+    <!-- 主线一 -->
+    <section class="card">
+      <h2><span class="tag tag-blue">主线一</span> 组件库设计 — 你的设计能力</h2>
+      <p class="storyline">串讲逻辑：6 个页面 → 发现共性 → 抽 Common 库 → 多态 Style 解决样式差异 → npm 发包管理版本</p>
+      <table>
+        <thead><tr><th>#</th><th>必答题</th><th>一句话记忆锚点</th></tr></thead>
+        <tbody>
+          <tr><td class="qid">Q7</td><td>多态 Style 方案怎么实现的？和直接传 style 有什么区别？</td><td>base → type → custom 三层样式合并，type 查映射表，开闭原则</td></tr>
+          <tr><td class="qid">Q6</td><td>6 个页面怎么判断哪些该抽象、哪些不该？</td><td>稳定重复→抽；配置化能解决→props；业务语义不同→不强抽</td></tr>
+          <tr><td class="qid">Q1</td><td>Modal 组件怎么设计的？</td><td>二次封装原生 Modal，内部多维护 showing 状态等退出动画播完再卸载</td></tr>
+          <tr><td class="qid">Q5</td><td>Common 库怎么管理的？</td><td>独立仓库 + npm 发包，业务方按版本依赖接入</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 主线二 -->
+    <section class="card">
+      <h2><span class="tag tag-red">主线二</span> 秒开率优化 — 你最硬的数据</h2>
+      <p class="storyline">串讲逻辑：安卓秒开 43.6% → 82.8%，四阶段逐个击破，每个阶段有具体手段和数据</p>
+      <table>
+        <thead><tr><th>#</th><th>必答题</th><th>一句话记忆锚点</th></tr></thead>
+        <tbody>
+          <tr><td class="qid">Q9</td><td>四阶段拆解：跳转/数据/计算/渲染</td><td>跳转靠 QP 包预加载；数据靠接口优先级+并行；计算靠缓存降阶；渲染靠分批+批量更新</td></tr>
+          <tr><td class="qid">Q10</td><td>QP 包预加载 → 94.4%</td><td>之前时机晚+覆盖不全，优化了预加载触发时机和策略</td></tr>
+          <tr><td class="qid">Q11</td><td>三级接口优先级</td><td>P0 首屏必需 → P1 首屏增强 → P2 非首屏，P0 先发，P2 延后</td></tr>
+          <tr><td class="qid">Q12</td><td>串行改并行</td><td>Promise.all 并发无依赖接口，有依赖的用 Promise 链保序</td></tr>
+          <tr><td class="qid">Q14</td><td>长任务分批执行</td><td>requestIdleCallback / setTimeout 分片，避免阻塞首帧</td></tr>
+          <tr><td class="qid">Q17</td><td>你怎么推动的？角色是什么？</td><td>主导方案设计+落地，协调客户端/后端，用数据驱动决策</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 主线三 -->
+    <section class="card">
+      <h2><span class="tag tag-green">主线三</span> 鸿蒙适配 — 你的跨端能力</h2>
+      <p class="storyline">串讲逻辑：纯血鸿蒙没有 Android 兼容层 → 需要重写原生桥接 → 统一三端接口 → 每周 4000+ 票量</p>
+      <table>
+        <thead><tr><th>#</th><th>必答题</th><th>一句话记忆锚点</th></tr></thead>
+        <tbody>
+          <tr><td class="qid">Q23</td><td>鸿蒙整体技术架构</td><td>RN → RNOH（鸿蒙版 RN）→ ArkTS → 鸿蒙原生渲染</td></tr>
+          <tr><td class="qid">Q25</td><td>日历提醒桥接完整链路</td><td>JS → NativeModule → ArkTS → 鸿蒙日历 API → Promise 回调</td></tr>
+          <tr><td class="qid">Q31</td><td>JSBridge 底层原理</td><td>WebView: URL Scheme 拦截 / postMessage；RN: NativeModules 序列化通信</td></tr>
+          <tr><td class="qid">Q37</td><td>三端 API 差异怎么处理？</td><td>JS 层统一接口 → Platform.select 分发 → 各端原生实现</td></tr>
+          <tr><td class="qid">Q42</td><td>最大技术挑战是什么？</td><td>准备一个具体故事：问题→排查→解决→收获</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 准备优先级 -->
+    <section class="card priority">
+      <h2>准备优先级</h2>
+      <ol>
+        <li><strong>先背主线二（秒开率）</strong> — 数据最硬、最容易讲出彩</li>
+        <li><strong>再背主线一（组件库）</strong> — 展示设计思维，面试官爱追问</li>
+        <li><strong>最后背主线三（鸿蒙）</strong> — 差异化亮点，别人没有的经历</li>
+      </ol>
+      <p class="tip">一共 15 题，三条线各 5 分钟，面试前过一遍 15 分钟就能兜底。</p>
+    </section>
+  </div>
+
   <script src="blocked.js"></script>
 </body>
 </html>
